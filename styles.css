@@ -7,6 +7,9 @@ h1 {
     font-family: 'Borel', cursive;
 
 }
+h2{
+    font-size: 2em;
+}
 
 .tags{
     display: flex;
@@ -38,4 +41,45 @@ h1 {
     display: flex;
     
     
+}
+label{
+    font-size: 26px;
+}
+input{
+    width: 15vw;
+    height: 3vh;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    flex-wrap: wrap;
+    padding: 5vh;
+}
+
+.headerContainer{
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    justify-content: center;
+    padding: 2vw;
+    background-color: rgb(219, 218, 218);
+}
+
+button{
+    width: 15vw;
+    height: 3vh;
+    background-color: rgb(2, 88, 2);
+    color: white;
+    
+}
+
+.footerContainer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3vh;
+    padding-left: 3vw;
+    background-color: rgb(219, 218, 218);
+    height: 32vh;
 }
