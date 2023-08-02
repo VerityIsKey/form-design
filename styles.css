@@ -23,6 +23,7 @@ h2{
 .logoText {
     font-size: 4em;
     color: white;
+    align-self: center;
 }
 
 .imageContainer {
@@ -48,6 +49,12 @@ label{
 input{
     width: 15vw;
     height: 3vh;
+}
+input:invalid{
+    border-color: red;
+}
+input:valid{
+    border-color: green;
 }
 
 form{
